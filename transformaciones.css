@@ -1,0 +1,26 @@
+.caja {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  margin-top: 150px;
+  margin-left: 150px;
+  transition-duration: 1s;
+}
+
+.caja:hover {
+  /*    
+    transform:
+        scale(x=y) => scale(2)
+        scaleY(2)
+        scalex(2)
+        rotate: deg => grados sexagesimales:border: border:border:
+            + => sentido horarios
+            - => sentido antihorario 
+        translate(Xpx, Ypx)
+        translateX() + Derecha - Izquierda
+        translateY() + Abajo - Arriba
+*/
+  transform: translate(200px, 200px) rotate(150deg) scale(2);
+  transition-property: transform;
+  transition-duration: 1s;
+}

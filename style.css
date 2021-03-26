@@ -1,0 +1,21 @@
+.caja {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  transition-duration: 2s;
+}
+.caja:hover {
+  /*
+    Obligatorios => transition
+*/
+  transition-property: background-color;
+  transition-duration: 2s;
+  /*
+    No obligatorios => transition
+*/
+  transition-delay: 1s;
+  /*  transition-timing-function: cubic-bezier(1, -0.03, 0.01, 1.02);*/
+  transition-timing-function: ease-in;
+
+  background: tomato;
+}

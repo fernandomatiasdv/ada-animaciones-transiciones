@@ -1,0 +1,26 @@
+.caja {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  margin: 200px;
+}
+.caja:hover {
+  animation-name: lacaja;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+}
+@keyframes lacaja {
+  0% {
+    background-color: aquamarine;
+  }
+  10% {
+    transform: translateX(100px);
+    background-color: blueviolet;
+  }
+  100% {
+    background-color: aquamarine;
+    transform: translateX(-100px);
+  }
+}
